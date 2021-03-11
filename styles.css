@@ -1,0 +1,46 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{ color: #fff;  }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    /*background-image: url('images/header.jpg');*/
+    background-color: darkorange;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 10px;
+    width: 600px;
+}
+
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 500px;
+    line-height: 45px;
+    vertical-align: center;
+}
+
+.fa-search{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png");
+    height: 40px;
+}
+
+.top-buffer {
+    margin-top:20px;
+}
